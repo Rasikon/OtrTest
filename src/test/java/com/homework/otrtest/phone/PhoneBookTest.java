@@ -21,5 +21,4 @@ public class PhoneBookTest {
         Assert.assertTrue(PhoneBook.getPhonebook().containsKey("Сидоров С.С."));
         Assert.assertTrue(PhoneBook.getPhonebook().containsKey("Иванов И.И."));
     }
-
 }
