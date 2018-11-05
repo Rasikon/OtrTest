@@ -24,7 +24,6 @@ public class IpRange {
             System.out.println(longToIp(i));
         }
 
-
     }
 
     public static long ipToLong(String stringIp) throws UnknownHostException {
