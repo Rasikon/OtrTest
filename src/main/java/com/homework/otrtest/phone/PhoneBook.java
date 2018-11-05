@@ -36,6 +36,7 @@ public class PhoneBook {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
         printNumbers(s);
+        reader.close();
 
     }
 
