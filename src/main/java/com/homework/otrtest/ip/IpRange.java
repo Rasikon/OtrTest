@@ -27,7 +27,6 @@ public class IpRange {
 
     public static long ipToLong(String stringIp) throws UnknownHostException {
         InetAddress address = InetAddress.getByName(stringIp);
-        ByteBuffer.allocate(4);
         ByteBuffer bb = ByteBuffer.wrap(address.getAddress());
         return (long) bb.getInt();
     }
